@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react"
+import Hero from "../components/landing/Hero.jsx"
+import ContentCard from "../components/landing/ContentCard.jsx"
 
 
 
@@ -17,5 +19,12 @@ useEffect(()=>{
   if (!content) return <p>Loading...</p>;
 
 
-  return (<h1>{content.hero.headline}</h1>)
+  return (<>
+
+  <Hero content={content}/>
+  <ContentCard content={content.cardsSectionOne} />
+
+  
+  </>)
 }
+
