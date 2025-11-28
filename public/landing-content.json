@@ -10,19 +10,19 @@
   "features": [
     {
       "id": 1,
-      "icon": "🏠",
+      "bg": "/images/landing/verified.png",
       "title": "Verified Listings",
       "text": "All properties are vetted to ensure safety and legitimacy."
     },
     {
       "id": 2,
-      "icon": "⚡",
+      "bg": "/images/landing/fast-search.png",
       "title": "Instant Search",
       "text": "Filter by location, price, bedrooms and more in seconds."
     },
     {
       "id": 3,
-      "icon": "📍",
+      "bg": "/images/landing/accurate-search.png",
       "title": "Location Accuracy",
       "text": "All listings provide precise location details for easier decision-making."
     }

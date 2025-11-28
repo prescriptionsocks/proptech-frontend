@@ -1,6 +1,61 @@
 .benefits-card-component{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.benefits-card-list{
      display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
   align-items: start;
 }
+
+.benefits-card{
+    padding: 32px;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: flex-end;
+
+
+    aspect-ratio: 9/10;
+
+    position: relative;
+    overflow: hidden;
+
+    color: white;
+}
+
+/* Add gradient to card for text visibility*/
+.benefits-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.65),
+    rgba(0,0,0,0.0)
+  );
+}
+
+.benefits-card-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    /* background: ; */
+}
+
+
+.benefits-card h3 {
+    position: relative;
+    z-index: 3;
+    font-size: 20px;
+}
+
