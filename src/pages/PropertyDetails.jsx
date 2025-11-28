@@ -2,11 +2,12 @@ import { useParams } from "react-router-dom"
 
 export default function PropertyDetails({houses, loading }) {
   
+   
   // get ide from clicked link
   const { id } = useParams()
 
   //only show data related to the id
-  const property = houses.find(h => h.id === parseInt(id));
+const property = houses.find(h => Number(h.id) === Number(id));
 
 
   return <>
