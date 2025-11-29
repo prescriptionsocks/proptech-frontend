@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import PropertyCard from "../components/PropertyCard"
 
 export default function Home({loading, houses}) {
   
@@ -15,6 +16,8 @@ export default function Home({loading, houses}) {
         <p>Bathrooms: {house.bathrooms}</p>
         <p>Parking spaces: {house.parking}</p>
         <Link to={`/pages/${house.id}`}> Details</Link>
+
+        <PropertyCard  house={house}/>
       </li>
     ))}
   </ul>

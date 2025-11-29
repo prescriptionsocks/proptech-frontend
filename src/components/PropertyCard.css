@@ -1,0 +1,114 @@
+.property-card {
+  border-radius: 12px;
+  padding: 16px 32px;
+  /* background-color: azure; */
+
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  align-items: flex-end;
+
+  height: 312px;
+
+  color: white;
+  
+}
+
+.property-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  pointer-events: none;
+
+  background: linear-gradient(
+    to top right,
+    rgba(0,0,0,0.4),
+    rgba(0,0,0,0)
+  );
+
+  z-index: 2; 
+}
+
+.property-card-content{
+    position: relative;
+    z-index: 3;
+    width: 100%;
+
+    /* background-color: aqua; */
+
+}
+
+.property-card-image {
+  position: absolute;
+  z-index: 1;
+  /* background-color: red; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  border: none;
+  outline: none;
+
+  top: 0;
+  left: 0;
+}
+
+.property-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+
+    /* background-color: green; */
+}
+
+.property-card-flex{
+    display: flex;
+    gap: 16px;
+
+}
+
+.property-card-feature{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 0;
+
+    /* background-color: grey; */
+}
+
+.property-card-feature p {
+    height: 8px;
+}
+
+.property-card-icon{
+    width: 20px;
+    height: 20px;
+      display: block;
+    /* background-color: red; */
+}
+
+.property-card-link{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    z-index: 9;
+    border-radius: 50%;
+    right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+.property-card-link:hover {
+  transform: scale(1.05);
+}
