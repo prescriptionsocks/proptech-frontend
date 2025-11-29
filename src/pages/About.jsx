@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import Hero from "../components/landing/Hero.jsx"
 import ContentCard from "../components/landing/ContentCard.jsx"
 import BenefitsSection from "../components/landing/BenefitsSection.jsx"
+import CTASection from "../components/landing/CTASection.jsx"
 
 
 
@@ -25,6 +26,7 @@ useEffect(()=>{
   <Hero content={content}/>
   <ContentCard content={content.cardsSectionOne} />
   <BenefitsSection content={content.features}/>
+  <CTASection content={content.ctaBanner}/>
 
   
   </>)

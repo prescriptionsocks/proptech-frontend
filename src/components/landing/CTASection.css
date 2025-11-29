@@ -1,0 +1,19 @@
+.cta-section{
+    background:
+    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.25)),
+     url("../../../public/images/landing/cta-bg.png");
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    color: white;
+}
+
+
+
+.cta-component{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 5rem;
+}
