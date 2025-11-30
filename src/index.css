@@ -15,11 +15,10 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--accent-color);
 }
 
 body {
@@ -42,7 +41,7 @@ h2{
 .heading-eyebrow{
   text-transform: uppercase;
   font-size: 12px;
-  color: #E58411;
+  color: var(--accent-color);
 }
 
 ul {
@@ -65,25 +64,35 @@ ul {
 
 .button {
   border-radius: 8px;
-  border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--accent-color);;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: all 0.25s ease;
   color: white;
   text-decoration: none;
   text-transform: capitalize;
 }
 .button:hover {
-  border-color: #646cff;
+  border-color: transparent;
+  color: white;
+  transform: translateY(-3px) scale(1.05);
+ box-shadow:
+    0 8px 12px rgba(0,0,0,0.05),
+    0 16px 25px rgba(0,0,0,0.05),
+    0 24px 40px rgba(0,0,0,0.1),
+    0 32px 60px rgba(0,0,0,0.005);
+
 }
+
 .button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+
 
 .card-grid {
   display: grid;
@@ -97,15 +106,3 @@ button:focus-visible {
 
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}

@@ -1,6 +1,9 @@
 #root {
   margin: 0 auto;
   text-align: center;
+
+  /* Global Variables */
+    --accent-color: #E58411;
 }
 
 /* TYPOGRAPHY */
