@@ -91,6 +91,10 @@ button:focus-visible {
   gap: 24px;
 
   padding: 32px;
+  background-color: #F7F7F7;
+
+  border-radius: 16px;
+
 }
 
 @media (prefers-color-scheme: light) {
