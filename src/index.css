@@ -106,3 +106,8 @@ button:focus-visible {
 
 }
 
+.card-wrapper .card:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+

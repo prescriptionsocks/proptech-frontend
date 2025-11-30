@@ -1,9 +1,9 @@
 /* Property cards styles */
-.property-card{
+.details-page-flex .property-card{
     height: 600px;
 }
 
-.property-card-link{
+.details-page-flex .property-card-link{
     display: none;
 }
 
