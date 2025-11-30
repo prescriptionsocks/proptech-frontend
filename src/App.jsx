@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom"
 import { useEffect, useState } from "react"
 import Nav from "./components/Nav.jsx"
+import Footer from "./components/Footer.jsx"
 import Home from "./pages/Home.jsx"
 import PropertyDetails from "./pages/PropertyDetails.jsx"
 import AddPropertyForm from "./pages/AddPropertyForm.jsx"
@@ -34,6 +35,8 @@ function App() {
         <Route path="/add" element={<AddPropertyForm houses={houses} />} />
         <Route path="/about" element={<About />} />
       </Routes>
+
+      <Footer />
     </div>
   )
 }
