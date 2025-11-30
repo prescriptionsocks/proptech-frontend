@@ -26,6 +26,7 @@ useEffect(()=>{
   <Hero content={content}/>
   <ContentCard content={content.cardsSectionOne} />
   <BenefitsSection content={content.features}/>
+  <ContentCard content={content.cardsSectionTwo} />
   <CTASection content={content.ctaBanner}/>
 
   

@@ -7,7 +7,10 @@ export default function ContentCard({ content }) {
       <div className="section-padding">
         <div className="content-card-component">
           <div className="content-card-flex">
-            <h2>{content.title}</h2>
+            <div>
+              <p className="heading-eyebrow">{content.eyebrow}</p>
+              <h2>{content.title}</h2>
+            </div>
             <p>{content.text}</p>
             <Link className="button" to="/">
               {" "}

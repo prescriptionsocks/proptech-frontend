@@ -2,7 +2,7 @@
     min-height: 100vh;
     width: 100%;
     background:
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.5)),
      url("../../../public/images/landing/hero-bg-alt.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -23,7 +23,7 @@
 .hero-component{
     height: 100%;
     width: 100%;
-    max-width: 700px;
+    max-width: 1050px;
 
     display: flex;
     flex-direction: column;
@@ -37,12 +37,12 @@
 }
 
 .hero-heading{
-font-size:80px;
-line-height: 130%;
+font-size:60px;
+line-height: 120%;
 }
 
 .hero-text{
-    max-width: 500px;
+    max-width: 700px;
 }
 
 
