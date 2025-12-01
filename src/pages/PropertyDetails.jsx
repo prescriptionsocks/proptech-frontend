@@ -15,7 +15,7 @@ const property = houses.find(h => Number(h.id) === Number(id));
 
 
   return <>
-  <main>
+  <main className="property-details-page">
     <section>
       <div className="section-padding">
         <div className="details-page-flex">

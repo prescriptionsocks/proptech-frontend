@@ -4,12 +4,17 @@ import { Link } from "react-router-dom";
 export default function PropertyCard({ house }) {
   return (
     <li key={house.id} className="property-card">
+      <div className="property-card-feature is-house-type is-glass">
+            <p>
+              {house.houseType}
+            </p>
+          </div>
       <img src={house.image} alt="" className="property-card-image" />
       <div className="property-card-content">
         <h3>{house.title}</h3>
         <p>Ksh {house.price}</p>
         <div className="property-card-flex">
-          <div className="property-card-feature">
+          <div className="property-card-feature is-glass">
             <svg
               className="property-card-icon"
               width="100%"
@@ -28,7 +33,7 @@ export default function PropertyCard({ house }) {
 
             <p>{house.bedrooms}</p>
           </div>
-          <div className="property-card-feature">
+          <div className="property-card-feature is-glass">
             <svg className="property-card-icon"
               width="100%"
               height="100%"
@@ -49,11 +54,13 @@ export default function PropertyCard({ house }) {
               {house.estate}, {house.city}
             </p>
           </div>
+          
         </div>
       </div>
-      <Link to={`/pages/${house.id}`} className="property-card-link">
+      
+      <Link to={`/pages/${house.id}`} className="property-card-link is-glass">
       <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1.41 0L0 1.41L4.58 6L0 10.59L1.41 12L7.41 6L1.41 0Z" fill="black"/>
+<path d="M1.41 0L0 1.41L4.58 6L0 10.59L1.41 12L7.41 6L1.41 0Z" fill="white"/>
 </svg>
 
       </Link>
