@@ -17,6 +17,7 @@ export default function AddPropertyForm() {
     description: "",
   });
 
+  //update the value of the inputs
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -25,6 +26,7 @@ export default function AddPropertyForm() {
     }));
   };
 
+  //update the value of the multi-image field
   const handleImageChange = (index, value) => {
     const newImages = [...formData.images];
     newImages[index] = value;
@@ -34,6 +36,7 @@ export default function AddPropertyForm() {
     }));
   };
 
+  //add images to an array
   const addImageField = () => {
     setFormData((prev) => ({
       ...prev,
@@ -41,6 +44,7 @@ export default function AddPropertyForm() {
     }));
   };
 
+  //submit code
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -67,6 +71,7 @@ export default function AddPropertyForm() {
     }
   };
 
+  //component
   return (
     <main>
       <section>
