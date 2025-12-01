@@ -53,7 +53,7 @@ export default function AddPropertyForm() {
       createdAt: new Date().toISOString(),
     };
 
-    const res = await fetch("http://localhost:3001/properties", {
+    const res = await fetch("https://proptech-backend-1.onrender.com/properties", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newProperty),
