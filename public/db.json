@@ -1,0 +1,212 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Modern 2 Bedroom Apartment",
+      "propertyType": "rent",
+      "houseType": "apartment",
+      "city": "Nairobi",
+      "estate": "Kilimani",
+      "price": 85000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "image": "https://res.cloudinary.com/dxzqmobt3/image/upload/v1764458423/frames-for-your-heart-2d4lAQAlbDA-unsplash_j1z5z7.jpg",
+      "images": [
+        "https://example.com/image1.jpg",
+        "https://example.com/image2.jpg"
+      ],
+      "description": "Nestled in the heart of Kilimani, this modern 2-bedroom apartment offers a refined blend of comfort, convenience, and contemporary design. The home is thoughtfully planned with large windows that draw in abundant natural light, enhancing the sense of spaciousness throughout the living areas. From the moment you enter, you’re welcomed by an open-concept layout that seamlessly connects the lounge, dining space, and kitchen — ideal for both relaxed evenings and entertaining guests.\n\nThe apartment’s location is one of its strongest assets. Situated just minutes from Yaya Centre, residents enjoy easy access to supermarkets, cafés, gyms, restaurants, and essential services. Whether you prefer a quiet evening at home or want to explore Kilimani’s vibrant lifestyle, everything is within reach. Despite its central positioning, the building maintains a peaceful residential atmosphere, making it suitable for young professionals, couples, or small families.\n\nBoth bedrooms are generously sized and well-lit, with thoughtful design that prioritizes comfort. The master bedroom offers ample closet space, while the second bedroom works perfectly as an additional sleeping space, home office, or guest room. The kitchen is fitted with modern cabinetry and functional counter space, making meal prep effortless. A clean, contemporary bathroom completes the layout, featuring quality fixtures and finishes.\n\nThis apartment represents a perfect balance between modern living and urban convenience. Whether you're looking for a long-term home or a secure investment in one of Nairobi’s most sought-after neighborhoods, this property stands out as a strong choice.",
+      "createdAt": "2025-11-28T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Cozy 3 Bedroom House",
+      "propertyType": "sale",
+      "houseType": "house",
+      "city": "Nairobi",
+      "estate": "Lavington",
+      "price": 12000000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 2,
+      "image": "https://res.cloudinary.com/dxzqmobt3/image/upload/v1764458424/jed-owen-ZdEQ_JKizsU-unsplash_hvmlkr.jpg",
+      "images": [
+        "https://example.com/image3.jpg",
+        "https://example.com/image4.jpg"
+      ],
+      "description": "Family home with a garden and garage.",
+      "createdAt": "2025-11-28T10:05:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Luxury 4 Bedroom Villa",
+      "propertyType": "sale",
+      "houseType": "villa",
+      "city": "Nairobi",
+      "estate": "Runda",
+      "price": 35000000,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "parking": 3,
+      "image": "https://res.cloudinary.com/dxzqmobt3/image/upload/v1764458424/patrick-perkins-3wylDrjxH-E-unsplash_j6oi6f.jpg",
+      "images": [
+        "https://example.com/image5.jpg",
+        "https://example.com/image6.jpg"
+      ],
+      "description": "High-end villa with pool and modern finishes.",
+      "createdAt": "2025-11-28T10:10:00Z"
+    },
+    {
+      "id": 4,
+      "title": "1 Bedroom Studio Apartment",
+      "propertyType": "rent",
+      "houseType": "apartment",
+      "city": "Nairobi",
+      "estate": "Westlands",
+      "price": 45000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "parking": 0,
+      "image": "https://res.cloudinary.com/dxzqmobt3/image/upload/v1764458423/polina-kuzovkova-DhiZ8c-J0LQ-unsplash_ewu1ks.jpg",
+      "images": [
+        "https://example.com/image7.jpg",
+        "https://example.com/image8.jpg"
+      ],
+      "description": "Compact studio perfect for singles or students.",
+      "createdAt": "2025-11-28T10:15:00Z"
+    },
+    {
+      "id": 5,
+      "title": "3 Bedroom Townhouse",
+      "propertyType": "sale",
+      "houseType": "townhouse",
+      "city": "Nairobi",
+      "estate": "Karen",
+      "price": 18000000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "parking": 2,
+      "image": "https://res.cloudinary.com/dxzqmobt3/image/upload/v1764458423/gustavo-zambelli-nEvzSXBIhiU-unsplash_zecntp.jpg",
+      "images": [
+        "https://example.com/image9.jpg",
+        "https://example.com/image10.jpg"
+      ],
+      "description": "Quiet townhouse in a gated community.",
+      "createdAt": "2025-11-28T10:20:00Z"
+    },
+    {
+      "id": 6,
+      "title": "Modern 2 Bedroom Apartment",
+      "propertyType": "rent",
+      "houseType": "apartment",
+      "city": "Mombasa",
+      "estate": "Nyali",
+      "price": 70000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "image": "https://res.cloudinary.com/dxzqmobt3/image/upload/v1764458423/webaliser-_TPTXZd9mOo-unsplash_yr7wij.jpg",
+      "images": [
+        "https://example.com/image11.jpg",
+        "https://example.com/image12.jpg"
+      ],
+      "description": "Sea-facing apartment near the beach with a pool.",
+      "createdAt": "2025-11-28T10:25:00Z"
+    },
+    {
+      "id": 7,
+      "title": "Beachfront 3 Bedroom Villa",
+      "propertyType": "rent",
+      "houseType": "villa",
+      "city": "Mombasa",
+      "estate": "Shanzu",
+      "price": 150000,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "parking": 2,
+      "image": "https://res.cloudinary.com/dxzqmobt3/image/upload/v1764458423/digital-marketing-agency-ntwrk-g39p1kDjvSY-unsplash_jbi64u.jpg",
+      "images": [
+        "https://example.com/image13.jpg",
+        "https://example.com/image14.jpg"
+      ],
+      "description": "Villa with direct access to the beach.",
+      "createdAt": "2025-11-28T10:30:00Z"
+    },
+    {
+      "id": 8,
+      "title": "2 Bedroom Condo",
+      "propertyType": "sale",
+      "houseType": "condo",
+      "city": "Nairobi",
+      "estate": "Upper Hill",
+      "price": 9500000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "image": "https://res.cloudinary.com/dxzqmobt3/image/upload/v1764458423/med-badr-chemmaoui-xtDpXi_a-YQ-unsplash_pzc3ga.jpg",
+      "images": [
+        "https://example.com/image15.jpg",
+        "https://example.com/image16.jpg"
+      ],
+      "description": "Condo with modern amenities and gym.",
+      "createdAt": "2025-11-28T10:35:00Z"
+    },
+    {
+      "id": 9,
+      "title": "4 Bedroom House with Garden",
+      "propertyType": "sale",
+      "houseType": "house",
+      "city": "Nairobi",
+      "estate": "Riverside",
+      "price": 22000000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "parking": 2,
+      "image": "https://res.cloudinary.com/dxzqmobt3/image/upload/v1764458422/allphoto-bangkok-bJGy8eodwg4-unsplash_afxdhd.jpg",
+      "images": [
+        "https://example.com/image17.jpg",
+        "https://example.com/image18.jpg"
+      ],
+      "description": "Beautiful house with large backyard and balcony.",
+      "createdAt": "2025-11-28T10:40:00Z"
+    },
+    {
+      "id": 10,
+      "title": "1 Bedroom Apartment",
+      "propertyType": "rent",
+      "houseType": "apartment",
+      "city": "Nairobi",
+      "estate": "Hurlingham",
+      "price": 50000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "parking": 1,
+      "image": "https://res.cloudinary.com/dxzqmobt3/image/upload/v1764458422/doug-bagg-4lzoPhfCFf8-unsplash_ze4nux.jpg",
+      "images": [
+        "https://example.com/image19.jpg",
+        "https://example.com/image20.jpg"
+      ],
+      "description": "Small apartment near shopping and transport.",
+      "createdAt": "2025-11-28T10:45:00Z"
+    },
+    {
+      "id": "e9a5",
+      "title": "dfvfvd",
+      "propertyType": "dvfdvd",
+      "houseType": "dvfd",
+      "city": "dvdfvd",
+      "estate": "vdfvd",
+      "price": 23,
+      "bedrooms": 23,
+      "bathrooms": 23,
+      "parking": 32,
+      "image": "dx d fd",
+      "images": [
+        ""
+      ],
+      "description": " dfvfdvfdv dfvdfv dfvdfv dfvdfvfd dfvdfvfd dfvdf",
+      "createdAt": "2025-11-30T12:17:32.564Z"
+    }
+  ]
+}

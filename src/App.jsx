@@ -12,7 +12,7 @@ function App() {
  const [loading, setLoading] = useState(true)
 
  useEffect(()=>{
-  fetch("http://localhost:3001/properties")
+  fetch("https://proptech-backend-1.onrender.com/properties")
   .then((res)=> res.json())
   .then((data)=>{
     setHouses(data)
