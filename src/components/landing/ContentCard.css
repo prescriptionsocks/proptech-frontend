@@ -20,6 +20,12 @@
 
     text-align: left;
 }
+@media (max-width: 950px) {
+  .content-card-component {
+    grid-template-columns: 1fr;
+    gap: 64px;
+  }
+}
 
 .content-card-image {
   width: 100%;

@@ -12,7 +12,7 @@ export default function Hero ({content}){
                     <p className="hero-text">{content.hero.subtext}</p>
                     <div className="button-group">
                     <Link className="button" to={content.hero.buttonLink}>{content.hero.buttonText}</Link>
-                    <Link className="button" to="/">Add property</Link>
+                    <Link className="button" to="/add">Add property</Link>
                     </div>
                 </div>
 
