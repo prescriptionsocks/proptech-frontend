@@ -45,12 +45,12 @@ h6 { font-size: 14px; line-height: 20px; }
 
 
 .section-padding{
-  padding: 5rem;
+  padding: 5rem 5vw;
 }
 
 
 .section-padding.is-nav{
-  padding: 1.5rem 5rem;
+  padding: 1.5rem 5vw;
 }
 
 main{
@@ -86,4 +86,12 @@ a {
     -2px -2px 1px -2px #ffffff,
     3px 3px 0 -3px rgba(0, 0, 0, 0.5);
 
+}
+
+.hide{
+  display: none;
+}
+
+.full-width-item {
+  grid-column: 1 / -1; 
 }

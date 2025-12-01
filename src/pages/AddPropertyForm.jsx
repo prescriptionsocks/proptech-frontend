@@ -217,7 +217,7 @@ export default function AddPropertyForm() {
               />
             </div>
 
-            <div className="form-item">
+            <div className="form-item hide">
               <label>Additional Images (URLs)</label>
 
               <div id="images-container">
@@ -240,7 +240,7 @@ export default function AddPropertyForm() {
               </button>
             </div>
 
-            <div className="form-item">
+            <div className="form-item full-width-item">
               <label htmlFor="description">Description</label>
               <textarea
                 id="description"
