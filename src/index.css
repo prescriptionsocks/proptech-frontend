@@ -1,17 +1,4 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 a {
   font-weight: 500;
@@ -109,5 +96,32 @@ button:focus-visible {
 .card-wrapper .card:nth-of-type(even) {
   flex-direction: row-reverse;
 }
+
+
+.search.form-input{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-content: center;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 4px ;
+}
+
+input,
+textarea,
+select {
+  all: unset;
+  box-sizing: border-box;
+  flex-grow: 1;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: transparent;
+  min-width: 0;
+}
+
+
 
 
