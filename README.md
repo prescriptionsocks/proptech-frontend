@@ -21,10 +21,10 @@ This is the frontend for the PropTech application, built with **React** and **Vi
    
 
 ## Available Routes
-/ → Home page with property listings and search/filter
-/pages/:id → Property detail page
-/add → Add property form
-/about → About page
+- / → Home page with property listings and search/filter  
+- /pages/:id → Property detail page  
+- /add → Add property form  
+- /about → About page
 
 ## Deployment
 The frontend has been deployed on -> https://proptech-five-psi.vercel.app/
